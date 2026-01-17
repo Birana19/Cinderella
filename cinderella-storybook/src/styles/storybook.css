@@ -1,0 +1,29 @@
+.storybook-cover {
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cover-image {
+  width: 300px;
+  max-width: 80%;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.start-btn {
+  margin-top: 1rem;
+  padding: 0.8em 1.5em;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: #ff6f91;
+  color: #fff;
+  border: none;
+  transition: background 0.3s;
+}
+.start-btn:hover {
+  background-color: #ff4f70;
+}
