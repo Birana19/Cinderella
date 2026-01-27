@@ -3,7 +3,7 @@ import { useState } from "react";
 import { storyData } from "../data/storyData";
 import Scene from "./Scene";
 import Controls from "./Controls";
-import AudioPlayer from "./AudioPlayer";
+//import AudioPlayer from "./AudioPlayer";
 import "../styles/storybook.css";
 
 function StoryBook() {
@@ -50,7 +50,7 @@ function StoryBook() {
           Start Story
         </button>
 
-        <AudioPlayer />
+        
       </div>
     );
   }
