@@ -36,6 +36,7 @@ function StoryBook() {
   // Cover Screen
   if (showCover) {
     return (
+      <div class = "storybook-overlay">
       <div className="storybook-cover">
         <img
           src={storyData.cover.image}
@@ -52,6 +53,7 @@ function StoryBook() {
 
         
       </div>
+    </div>
     );
   }
 
