@@ -36,7 +36,7 @@ function StoryBook() {
   // Cover Screen
   if (showCover) {
     return (
-      <div class = "storybook-overlay">
+      <div className = "storybook-overlay">
       <div className="storybook-cover">
         <img
           src={storyData.cover.image}
@@ -69,7 +69,7 @@ function StoryBook() {
         isLast={currentScene === scenes.length - 1}
       />
 
-      <AudioPlayer />
+     
     </div>
   );
 }

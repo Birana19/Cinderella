@@ -1,18 +1,18 @@
 .storybook-overlay {
   position: fixed;
   inset: 0;
-  background: #222; /* your dark background */
+  background: #222; 
   display: flex;
-  justify-content: center;   /* horizontal center */
-  align-items: center;       /* vertical center */
+  justify-content: center;   
+  align-items: center;       
 }
 
 .storybook-cover {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;   /* vertical center */
-  align-items: center;       /* horizontal center */
+  justify-content: center;  
+  align-items: center;       
   text-align: center;
   color: #fff;
   gap: 1rem;
