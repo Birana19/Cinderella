@@ -18,6 +18,12 @@
   gap: 1rem;
 }
 
+.storybook-container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
 
 
 .cover-image {
