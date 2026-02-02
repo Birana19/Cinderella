@@ -1,4 +1,5 @@
 // src/components/Controls.jsx
+import "../styles/controls.css"; 
 function Controls({ onNext, onPrev, onRestart, isFirst, isLast }) {
   return (
     <div className="controls">

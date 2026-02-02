@@ -9,24 +9,27 @@
   justify-content: center;
 }
 
-/* Dark overlay so text is readable */
+/* Dark overlay for readability */
 .scene::before {
   content: "";
   position: absolute;
   inset: 0;
   background: rgba(0, 0, 0, 0.45);
+  z-index: 1;
 }
 
-/* Story text box */
+/* Text directly on the scene */
 .scene-overlay {
   position: relative;
+  z-index: 2;          /* IMPORTANT */
   max-width: 800px;
   padding: 2rem;
   color: #fff;
   text-align: center;
-  background: rgba(0, 0, 0, 0.35);
-  border-radius: 16px;
-  backdrop-filter: blur(6px);
+
+  /* REMOVE these 👇 */
+  background: none;
+  backdrop-filter: none;
 }
 
 .scene-overlay h2 {
