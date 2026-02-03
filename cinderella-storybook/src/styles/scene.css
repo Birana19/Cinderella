@@ -9,7 +9,7 @@
   justify-content: center;
 }
 
-/* Dark overlay for readability */
+
 .scene::before {
   content: "";
   position: absolute;
@@ -18,16 +18,15 @@
   z-index: 1;
 }
 
-/* Text directly on the scene */
+
 .scene-overlay {
   position: relative;
-  z-index: 2;          /* IMPORTANT */
+  z-index: 2;          
   max-width: 800px;
   padding: 2rem;
   color: #fff;
   text-align: center;
 
-  /* REMOVE these 👇 */
   background: none;
   backdrop-filter: none;
 }
