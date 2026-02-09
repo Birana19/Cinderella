@@ -1,6 +1,6 @@
 // src/components/Scene.jsx
 import "../styles/scene.css";
-import "../styles/animations.css";
+//import "../styles/animations.css";
 
 function Scene({ scene }) {
   return (
