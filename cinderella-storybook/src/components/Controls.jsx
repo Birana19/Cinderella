@@ -15,7 +15,7 @@ function Controls({ onNext, onPrev, onRestart, isFirst, isLast }) {
 
       {isLast && (
         <button onClick={onRestart}>
-          Restart Story 🔁
+          Restart Story 
         </button>
       )}
     </div>
