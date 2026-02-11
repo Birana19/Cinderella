@@ -33,7 +33,7 @@ function StoryBook() {
     setShowCover(true);
   };
 
-  // Cover Screen
+  
   if (showCover) {
     return (
       <div className = "storybook-overlay">
